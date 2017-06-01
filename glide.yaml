@@ -1,0 +1,14 @@
+package: github.com/garo/kubesourcedestcheck
+import:
+- package: k8s.io/apimachinery
+  subpackages:
+  - pkg/apis/meta/v1
+- package: k8s.io/client-go
+  subpackages:
+  - kubernetes
+  - rest
+  - v2.0.0
+- package: github.com/aws/aws-sdk-go
+  version: ^1.8.32
+  subpackages:
+  - aws
