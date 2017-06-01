@@ -1,4 +1,4 @@
-package: github.com/garo/kubesourcedestcheck
+package: github.com/UnityTech/kubesourcedestcheck
 import:
 - package: k8s.io/apimachinery
   subpackages:
